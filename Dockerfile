@@ -5,4 +5,4 @@ COPY . /var/www
 WORKDIR /var/www
 RUN yarn
 ENTRYPOINT yarn build
-EXPOSE 3000
+EXPOSE "8080:3000"
